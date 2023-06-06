@@ -1,0 +1,62 @@
+body {
+  background-color: lightblue;
+}
+
+.scorebox {
+  font-size: 200%;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.score {
+  color: green;
+  font-weight: bold;
+}
+
+.choice {
+  font-size: 140%;
+  margin-left: 10px;
+}
+
+.choice-id {
+  font-weight: bold;
+  margin-right: 4px;
+}
+
+.category {
+  font-size: 120%;
+}
+
+.difficulty {
+  font-size: 120%;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.answer-key {
+  margin: 0 0 3px 0;
+}
+
+.results {
+  font-size: 500%;
+  font-weight: bolder;
+  text-align: center;
+}
+.start_btn button {
+  font-size: 25px;
+  font-weight: 500;
+  color: #007bff;
+  padding: 15px 30px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background: #fff;
+  cursor: pointer;
+}
+.start_btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
